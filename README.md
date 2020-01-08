@@ -7,5 +7,5 @@ ps4a.py: Display all possible permutations of a word by transposing its letters.
 
 ps4b.py: Caesar cipher 
 
-ps4c.py: 
+ps4c.py: Substitution cipher (only the vowels are encrypted)
 
