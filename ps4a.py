@@ -71,5 +71,17 @@ if __name__ == '__main__':
 #    to be three characters or fewer as you will have n! permutations for a 
 #    sequence of length n)
 
-    pass #delete this line and replace with your code here
+    example_input = 'ab'
+    print('Input:', example_input)
+    print('Expected Output:', ['ab', 'ba'])
+    print('Actual Output:', get_permutations(example_input))
 
+    example_input = 'cut'
+    print('Input:', example_input)
+    print('Expected Output:', ['cut', 'ctu', 'uct', 'utc', 'tcu', 'tuc'])
+    print('Actual Output:', get_permutations(example_input))
+
+    example_input = 'pac'
+    print('Input:', example_input)
+    print('Expected Output:', ['pac', 'pca', 'apc', 'acp', 'cpa', 'cap'])
+    print('Actual Output:', get_permutations(example_input))
